@@ -1,4 +1,4 @@
-#User interface
+# User interface
 user interface connects computer to a person
-##Application programming interface
+## Application programming interface
 connects computers or pieces of software to each other.
