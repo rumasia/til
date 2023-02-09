@@ -4,6 +4,8 @@
 3) **js** javascript 
   
 ***URL*** uniform resourse locator
+
 ***DNS server*** Domain Name System
+
 ***IP*** internet portal
  
