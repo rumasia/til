@@ -6,6 +6,6 @@ type ,
 id ,
 group,
 class.
-## combinators
+## By combinators
 decendent ,
 child.
