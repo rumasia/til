@@ -11,5 +11,5 @@ margin:50px 0 0 0;
 }
 
 ```
-<span style="color:blue"> *The botom margin for h1 is 20px and top margin for h2 is 50px it seems that the distance between two headings is 70px because (20px + 50px =70px) but the actual distance is 50px due to margin collapsing* </span>
+<span style="color:blue">The *botom margin for h1 is 20px and top margin for h2 is 50px* it seems that the distance between two headings is 70px because (20px + 50px =70px) but the actual distance is 50px due to margin collapsing</span>
 
