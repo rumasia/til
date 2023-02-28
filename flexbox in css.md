@@ -2,7 +2,7 @@
 Flexbox is a flexible box .It is model which is used to provide easy and clean way to arrange items in container, positining child elements in this model is much easier.
 Orders of elements can be easily changed using flexbox.
 
-<img src="grid-flexbox-what-problems-they-solve.html" alt="flexbox-container" title="flexbox-container" width="20"/>
+[images](https://user-images.githubusercontent.com/118662899/221909226-19052669-5ee5-4170-a12f-176e8fb2291b.png)
 
 ## flex properties 
 
