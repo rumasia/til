@@ -5,8 +5,9 @@ toFixed is a built in javascript method you call on numbers which rounds the num
       num.toFixed(2)
 ```
    
-    ### Syntax:
-    number.toFixed()   ```
+ ### Syntax:
+       ```
+    number.toFixed()
   
 ```
         
