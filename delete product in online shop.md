@@ -24,7 +24,7 @@ In the <strong> admin-controller.js </strong> write the following code.
 
 ```
           
-     To make it   <strong> available outside this file </strong> use
+     To make it available outside this file use
    ```
   module.exports={
            deleteProduct:deleteProduct
