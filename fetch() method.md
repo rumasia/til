@@ -3,10 +3,14 @@ The first parameter in the fetch function should be the url of the server to whi
 sent.
 Body contains the data which we sent with the request.
       
-      ```
-       fetch('Url of the sever to which the request is send ', {
+      
+```
+ fetch('Url of the sever to which the request is send ', {
        method:'..',
        body:'..' 
        });
+
+```
+      
     
-    ```
+   
