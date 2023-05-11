@@ -1,5 +1,6 @@
  How to delete products from  online shop  by applying MVC pattern.
-In the product-model.js file write the following code
+
+In the <strong> product-model.js </strong> file write the following code
 ```
  async remove(){
                 const productId=new mongodb.ObjectId(this.id);
@@ -8,7 +9,7 @@ In the product-model.js file write the following code
 
 ```
           
-In the admin-controller.js write the following code.
+In the <strong> admin-controller.js </strong> write the following code.
 ```
  async function deleteProduct(req,res,next){
                 let product;
@@ -23,14 +24,14 @@ In the admin-controller.js write the following code.
 
 ```
           
-         To make it available outside this file use.
+      <strong> To make it available outside this file use. </strong> 
    ```
   module.exports={
            deleteProduct:deleteProduct
            }
 ```
          
-In the admin.routes.js file  add a route for delete request and write the following code
+In the  <strong> admin.routes.js file  </strong>  add a route for delete request and write the following code
 ```
  router.delete('/products/:id',adminController.deleteProduct);
 ```
