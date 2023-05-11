@@ -1,11 +1,16 @@
 Today i learn how to delete products from my online shop.I do this by applying MVC pattern.
 In the product-model.js file i wrote the following code
-           async remove(){
+```
+ async remove(){
                 const productId=new mongodb.ObjectId(this.id);
                 return db.getDb().collection('products').deleteOne({_id:productId});
                 }
+
+```
+          
 In the admin-controller.js i wrote the following code.
-           async function deleteProduct(req,res,next){
+```
+ async function deleteProduct(req,res,next){
                 let product;
                 try{
                   product=await Product.findById(req.params.id)
@@ -15,12 +20,21 @@ In the admin-controller.js i wrote the following code.
                    }
                  res.redirect('/admin/products')   // this path leads to the all products page
                  }
+
+```
+          
          To make it available outside this file i use.
-           module.exports={
+   ```
+  module.exports={
            deleteProduct:deleteProduct
            }
+```
+         
 In the admin.routes.js file i add a route for delete request and wrote the following code
-          router.delete('/products/:id',adminController.deleteProduct);
+```
+ router.delete('/products/:id',adminController.deleteProduct);
+```
+         
                
                 
                 
