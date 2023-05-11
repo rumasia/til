@@ -1,3 +1,4 @@
+# Destructuring
 Destructuring means values gets pull out of the array and we can store them in seprate variables or constants .it does not mean destroying an array or
 object.
 ## Array destructuring
