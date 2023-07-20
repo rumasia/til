@@ -1,6 +1,7 @@
-##### For importing and exporting cpntent in javascript files different methods are used.
+##### For importing and exporting content in javascript files different methods are used.
 1)
-let we index.js file
+let we have index.js file and app.js file
+In index.js file
 ```
 export let name='abc'
 ```
