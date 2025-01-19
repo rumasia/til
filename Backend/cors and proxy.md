@@ -1,2 +1,0 @@
-#CORS AND PROXY
-##CORS
